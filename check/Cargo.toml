@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "cellcheck"
+version = "0.1.0"
+edition = "2021"
+description = "The ce-net cell architecture rule, as a command that fails"
+license = "MIT"
+repository = "https://github.com/ce-net/cell-architecture"
+
+[[bin]]
+name = "cellcheck"
+path = "src/main.rs"
